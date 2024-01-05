@@ -1,0 +1,39 @@
+.item{
+    width:350px;
+}
+.item p{
+    margin:6px 0px;
+}
+.item.prices{
+    display: flex;
+    gap:20px;
+}
+.item-price-new{
+    color:black;
+    font-size: 18px;
+    font-weight: 600;
+}
+.item-price-old{
+    color:grey;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: line-through;
+}
+.item:hover{
+    transform: scale(1.05);
+    transition: 0.6s;
+}
+.item-img{
+    height:5px;
+    width: 5px;
+}
+.item-price-old button{
+    padding:10px;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    background: red;
+    color: white;
+    margin-left: 9px;
+    cursor: pointer;
+}
